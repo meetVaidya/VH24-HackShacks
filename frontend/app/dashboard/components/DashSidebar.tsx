@@ -8,7 +8,7 @@ export default function DashSidebar() {
             <div className="flex items-center space-x-2 mb-8">
                 <ShieldPlus className="h-6 w-6" />
                 <p className="font-[family-name:var(--font-geist-mono)]">
-                    Authenticate Me
+                    Surakh.sh
                 </p>
             </div>
             <nav className="flex flex-col space-y-4">
@@ -28,7 +28,6 @@ export default function DashSidebar() {
                     <span>Docs</span>
                 </Link>
             </nav>
-            
         </div>
     );
 }

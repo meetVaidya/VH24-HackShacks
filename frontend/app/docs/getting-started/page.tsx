@@ -7,14 +7,14 @@ const page = () => {
                 Getting Started
             </h2>
             <p className="mb-4">
-                Getting started with LoginBindass is easy. Follow the steps
-                below to get started.
+                Getting started with Surakh.sh is easy. Follow the steps below
+                to get started.
             </p>
             <h3 className="text-xl font-semibold mt-8 mb-4">
                 Create an account
             </h3>
             <li className="mb-4">
-                To get started, create an account on LoginBindass.
+                To get started, create an account on Surakh.sh.
             </li>
             <h3 className="text-xl font-semibold mt-8 mb-4">
                 Log into the account

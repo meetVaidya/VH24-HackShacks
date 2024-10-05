@@ -16,7 +16,7 @@ export default function AuthPage() {
             <div className="w-1/2 flex flex-col justify-between p-10 bg-[#111111] text-white">
                 <div>
                     <h1 className="text-xl font-bold flex items-center">
-                        <span className="mr-2"></span> LoginBindass
+                        <span className="mr-2"></span> Surakh.sh
                     </h1>
                 </div>
                 <div className="text-white">

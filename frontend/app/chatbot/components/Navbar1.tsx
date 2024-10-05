@@ -10,7 +10,7 @@ export default function Navbar1() {
                 <Link href="/" className="flex items-center space-x-2">
                     <ShieldPlus className="h-6 w-6" />
                     <p className="font-[family-name:var(--font-geist-mono)]">
-                        LoginBindass
+                        Surakh.sh
                     </p>
                 </Link>
             </div>

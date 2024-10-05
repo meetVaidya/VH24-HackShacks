@@ -16,9 +16,7 @@ const Sidebar = () => {
         <nav className="w-64 p-6 flex flex-col justify-between h-full overflow-y-auto">
             <div>
                 <Link href="/">
-                    <h1 className="text-2xl font-bold mb-6">
-                        LoginBindass Docs
-                    </h1>
+                    <h1 className="text-2xl font-bold mb-6">Surakh.sh Docs</h1>
                 </Link>
                 <ul className="space-y-2">
                     {links.map((link) => (
