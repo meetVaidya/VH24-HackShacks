@@ -3,6 +3,7 @@ import { BentoDemo } from "@/components/BentoGrid";
 import { Footer } from "@/components/Footer";
 import HoverText from "@/components/HoverText";
 import Navbar from "@/components/Navbar";
+import { Pricing } from "@/components/Pricing";
 import FlickeringGrid from "@/components/ui/flickering-grid";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
                     <BentoDemo />
                     <HoverText />
                 </div>
+                <Pricing />
             </section>
             <Footer />
         </>

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 // Replace with your actual Vercel Serverless Function URL
-const API_ENDPOINT = "http://127.0.0.1:9000/generate";
+const API_ENDPOINT = "http://localhost:2400/generate";
 
 const AiAssistant = () => {
     const [userInput, setUserInput] = useState("");
