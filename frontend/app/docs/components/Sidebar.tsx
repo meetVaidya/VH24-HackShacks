@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div>
                 <Link href="/">
                     <h1 className="text-2xl font-bold mb-6">
-                        AuthenticateMe Docs
+                        LoginBindass Docs
                     </h1>
                 </Link>
                 <ul className="space-y-2">

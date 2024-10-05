@@ -10,17 +10,17 @@ export default function Navbar() {
                 <Link href="/" className="flex items-center space-x-2">
                     <ShieldPlus className="h-6 w-6" />
                     <p className="font-[family-name:var(--font-geist-mono)]">
-                        AuthenticateMe
+                        LoginBindass
                     </p>
                 </Link>
             </div>
             <div className="flex space-x-2">
                 <Button variant="secondary">Examples</Button>
                 <Button variant="secondary">Components</Button>
-                <Link href='/docs'>
+                <Link href="/docs">
                     <Button variant="secondary">Documentation</Button>
                 </Link>
-            </div>  
+            </div>
             <div className="flex items-center space-x-4">
                 <Link href="/auth">
                     <Button variant="secondary" className="text-white">

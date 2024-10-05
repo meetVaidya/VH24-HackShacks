@@ -1,9 +1,4 @@
-import {
-    Blocks,
-    CodeXml,
-    CreditCard,
-    Webhook,
-} from "lucide-react";
+import { Blocks, CodeXml, CreditCard, Webhook } from "lucide-react";
 
 import Link from "next/link";
 
@@ -38,7 +33,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-12">
                     <div className="lg:col-span-4">
                         <p className="text-sm text-foreground/60">
-                            AuthenticateMe is a platform that allows you to
+                            LoginBindass is a platform that allows you to
                             authenticate using any provider.
                         </p>
 
@@ -90,7 +85,7 @@ export function Footer() {
             </div>
             <div className="mt-20 border-t pt-6 pb-8">
                 <p className="text-xs text-foreground/55 px-8">
-                    © 2021 AuthenticateMe. All rights reserved.
+                    © 2021 LoginBindass. All rights reserved.
                 </p>
             </div>
         </div>
