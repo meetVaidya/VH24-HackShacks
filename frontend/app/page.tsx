@@ -23,8 +23,13 @@ export default function Home() {
                 <div className="z-1">
                     <AnimatedText />
                     <h1 className="text-4xl sm:text-7xl lg:text-8xl font-bold font-[family-name:var(--font-geist-mono)] text-center pb-8">
-                        The Open-Source Authentication Platform
+                        Surakh.sh
                     </h1>
+                    <p className="font-[family-name:var(--font-geist-mono)] text-center text-3xl py-12">
+                        {" "}
+                        An open-source authentication platform
+                    </p>
+
                     <p className="font-[family-name:var(--font-geist-mono)] text-center text-lg py-12">
                         Welcome to our platform, where security meets
                         simplicity. Join us in revolutionizing authentication

@@ -8,8 +8,8 @@ import {
 } from "@tabler/icons-react";
 import { Gradient } from "./Graident";
 import { Rippled } from "./Ripple";
-import Image from "next/image";
-import FlickeringGrid from "./ui/flickering-grid";
+import { AnimatedGridPatternd } from "./AnimatedGrid";
+import { FlickeringGid } from "./FlickeringGid";
 
 const Skeleton = () => (
     <div></div>
@@ -32,16 +32,17 @@ const items = [
     {
         title: "Open Source",
         description: "Reliable and transparent, just like you.",
-        header: <Image src="/codeimage/image.png" width={800} height={800} alt="image of homescreen" />,
+        header: <FlickeringGid />,
         className: "md:col-span-1",
         icon: <IconBrandOpenSource className="h-4 w-4 text-neutral-500" />,
     },
     {
         title: "Robust and Scalable",
         description: "Built to handle the most demanding applications.",
-        header: <Image src="/codeimage/image.png" width={80} height={80} alt="image of homescreen" />,
+        header: <AnimatedGridPatternd />,
         className: "md:col-span-2",
         icon: <IconMeteor className="h-4 w-4 text-neutral-500" />,
+    
     },
 ];
 
