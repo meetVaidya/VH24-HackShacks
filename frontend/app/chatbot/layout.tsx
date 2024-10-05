@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import Navbar from "@/components/Navbar";
+import Navbar1 from "./components/Navbar1";
 
 interface LayoutProps {
     children: ReactNode;
@@ -12,7 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div
             className={`${GeistSans.className} ${GeistMono.className} antialiased flex-1 h-screen`}
         >
-            <Navbar />
+            <Navbar1 />
             <main>{children}</main>
         </div>
     );

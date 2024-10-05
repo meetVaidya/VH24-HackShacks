@@ -19,13 +19,7 @@ export default function DashSidebar() {
                     <Key className="h-4 w-4" />
                     <span>API Keys</span>
                 </Link>
-                <Link
-                    href="/settings"
-                    className="text-white flex items-center space-x-2"
-                >
-                    <Bolt className="h-4 w-4" />
-                    <span>Settings</span>
-                </Link>
+
                 <Link
                     href="/docs"
                     className="text-white flex items-center space-x-2"
@@ -34,16 +28,7 @@ export default function DashSidebar() {
                     <span>Docs</span>
                 </Link>
             </nav>
-            <div className="mt-auto flex flex-col space-y-4">
-                <Link href="/docs">
-                    <Button variant="secondary" className="text-white">
-                        Login
-                    </Button>
-                </Link>
-                <Button className="text-white border-white hover:bg-white hover:text-black">
-                    Start your trial
-                </Button>
-            </div>
+            
         </div>
     );
 }
